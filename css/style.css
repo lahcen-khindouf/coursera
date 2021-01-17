@@ -1,0 +1,134 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) {  
+    h1{
+        color: rgb(0, 0, 0);
+        font-size: 50px;
+        font-family: "Comic Sanc MS", cursive;
+    }
+    .alldiv{
+        background-color: gray;
+        border: 3px solid black;
+        width: 80%;
+        height: 150px;
+        margin: 2% 10% 0px 10%;
+        box-sizing: border-box;
+    }
+    .dous{
+        width: 25%;
+        height: 20%;
+        margin-left: 74%;
+        margin-top:-3px;
+        border: 3px solid black;
+        text-align: center;
+        position: relative;
+        font-size:20px;
+    }
+    .alldiv p{
+        padding-left: 5px;
+    }
+    #chiken{
+        background-color: green;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #beef{
+        background-color: rgb(193, 193, 196);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #suchi{
+        background-color: rgb(128, 30, 0);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+    h1{
+        color: rgb(0, 0, 0);
+        font-size: 50px;
+        font-family: "Comic Sanc MS", cursive;
+    }
+    .alldiv{
+        background-color: gray;
+        border: 3px solid black;
+        width: 47%;
+        height: 150px;
+        margin: 2% 0px 0px 2%;
+        float: left;
+        box-sizing: border-box;
+    }
+    .dous{
+        width: 25%;
+        height: 20%;
+        margin-left: 74%;
+        margin-top:-3px;
+        border: 3px solid black;
+        text-align: center;
+        position: relative;
+        font-size:20px;
+    }
+    #div3{
+        width: 96%; 
+    }
+    .alldiv p{
+        padding-left: 5px;
+    }
+    #chiken{
+        background-color: green;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #beef{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgb(193, 193, 196);
+    }
+    #suchi{
+        margin-left: 74.5%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgb(128, 30, 0);
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    h1{
+        color: rgb(0, 0, 0);
+        font-size: 50px;
+        font-family: "Comic Sanc MS", cursive;
+    }
+    .alldiv{
+        background-color: gray;
+        border: 3px solid black;
+        width: 30%;
+        height: 170px;
+        margin: 0px 0px 0px 2%;
+        float: left;
+        box-sizing: border-box;
+    }
+    .dous{
+        width: 25%;
+        height: 20%;
+        margin-left: 74%;
+        margin-top:-3px;
+        border: 3px solid black;
+        text-align: center;
+        position: relative;
+        font-size:20px;
+    }
+    #div3{
+        width: 30%;
+    }
+    .alldiv p{
+        padding-left: 5px;
+    }
+    #chiken{
+        background-color: green;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #beef{
+        background-color: rgb(193, 193, 196);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #suchi{
+        background-color: rgb(128, 30, 0);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
